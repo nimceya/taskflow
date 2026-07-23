@@ -44,7 +44,7 @@ cp  .env
 npm run dev
 ```
 
-Visit `http://localhost:3000`. You should be able to:
+Visit `http://taskflow.vercal.app`. You should be able to:
 - Sign up at `/register`
 - Log in at `/login`
 - Land on `/dashboard`, which is protected — try visiting it while logged
@@ -79,12 +79,6 @@ edit, or delete another user's task), search + priority/status filters,
 dashboard stats, dark mode, toast notifications, loading skeleton, custom
 404 and error pages, input validation with Zod on both client and server.
 
-**Not included (optional per the original plan, pick one if you want it):**
-- A Day 4 "advanced feature" — Kanban board, AI task suggestions,
-  real-time updates, file uploads, or email notifications. None of these
-  are built yet; happy to add whichever one you want next.
-- Production deployment steps for Vercel (env var setup there is the same
-  as `.env`, just entered in the Vercel dashboard).
 
 ## Before you deploy
 
