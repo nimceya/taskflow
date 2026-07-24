@@ -44,7 +44,7 @@ cp  .env
 npm run dev
 ```
 
-Visit `http://taskflow.vercal.app`. You should be able to:
+Visit `https://taskflow-7y82.onrender.com`. You should be able to:
 - Sign up at `/register`
 - Log in at `/login`
 - Land on `/dashboard`, which is protected — try visiting it while logged
